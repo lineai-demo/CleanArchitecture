@@ -29,7 +29,7 @@
     "jquery": "^3.7.1",
     "@popperjs/core": "^2.11.8",
     "run-script-os": "^1.1.6",
-    "rxjs": "~7.8.1",
+    "rxjs": "~7.8.2",
     "tslib": "^2.5.0",
     "zone.js": "~0.14.8"
   },
