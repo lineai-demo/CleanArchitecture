@@ -16,7 +16,7 @@
     "rimraf": "^5.0.10",
     "web-vitals": "^3.5.2",
     "workbox-background-sync": "^6.6.0",
-    "workbox-broadcast-update": "^6.5.4",
+    "workbox-broadcast-update": "^6.6.0",
     "workbox-cacheable-response": "^6.5.4",
     "workbox-core": "^6.5.4",
     "workbox-expiration": "^6.5.4",
