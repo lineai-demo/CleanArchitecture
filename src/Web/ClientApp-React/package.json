@@ -43,7 +43,7 @@
   "overrides": {
     "autoprefixer": "10.5.4",
     "nth-check": "2.1.1",
-    "webpack": "5.81.0"
+    "webpack": "5.110.3"
   },
   "scripts": {
     "prestart": "node aspnetcore-https && node aspnetcore-react",
