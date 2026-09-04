@@ -50,6 +50,6 @@
   },
   "overrides": {
     "autoprefixer": "10.5.4",
-    "webpack": "5.81.0"
+    "webpack": "5.110.3"
   }
 }
