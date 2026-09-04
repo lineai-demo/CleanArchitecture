@@ -41,7 +41,7 @@
     "typescript": "^4.9.5"
   },
   "overrides": {
-    "autoprefixer": "10.4.5",
+    "autoprefixer": "10.5.4",
     "nth-check": "2.1.1",
     "webpack": "5.81.0"
   },
