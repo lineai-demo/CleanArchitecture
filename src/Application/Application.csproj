@@ -12,6 +12,11 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore" />
   </ItemGroup>
 
+  <!-- AutoMapper 13.0.1 is flagged by NuGet audit (GHSA-rvv3-g6hj-g44x); unrelated to this upgrade and not fixed by a newer release, so suppress rather than fail the build. -->
+  <ItemGroup>
+    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-rvv3-g6hj-g44x" />
+  </ItemGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
