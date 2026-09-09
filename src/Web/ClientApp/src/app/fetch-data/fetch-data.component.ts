@@ -3,6 +3,7 @@ import { WeatherForecastsClient, WeatherForecast } from '../web-api-client';
 
 @Component({
   selector: 'app-fetch-data',
+  standalone: false,
   templateUrl: './fetch-data.component.html'
 })
 export class FetchDataComponent {

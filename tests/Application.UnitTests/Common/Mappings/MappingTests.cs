@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using AutoMapper;
+using Microsoft.Extensions.Logging.Abstractions;
 using CleanArchitecture.Application.Common.Interfaces;
 using CleanArchitecture.Application.Common.Models;
 using CleanArchitecture.Application.TodoItems.Queries.GetTodoItemsWithPagination;
@@ -17,8 +18,8 @@ public class MappingTests
 
     public MappingTests()
     {
-        _configuration = new MapperConfiguration(config => 
-            config.AddMaps(Assembly.GetAssembly(typeof(IApplicationDbContext))));
+        _configuration = new MapperConfiguration(config =>
+            config.AddMaps(Assembly.GetAssembly(typeof(IApplicationDbContext))), NullLoggerFactory.Instance);
 
         _mapper = _configuration.CreateMapper();
     }

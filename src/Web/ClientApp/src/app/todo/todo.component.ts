@@ -8,6 +8,7 @@ import { TodoListsClient, TodoItemsClient,
 
 @Component({
   selector: 'app-todo-component',
+  standalone: false,
   templateUrl: './todo.component.html',
   styleUrls: ['./todo.component.scss']
 })
