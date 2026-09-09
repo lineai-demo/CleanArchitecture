@@ -23,7 +23,7 @@
     "@angular/platform-browser-dynamic": "^17.3.12",
     "@angular/platform-server": "^17.3.12",
     "@angular/router": "^17.3.12",
-    "bootstrap": "^5.3.0",
+    "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.10.5",
     "ngx-bootstrap": "^12.0.0",
     "jquery": "^3.6.4",
