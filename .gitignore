@@ -480,3 +480,6 @@ $RECYCLE.BIN/
 # Vim temporary swap files
 *.swp
 .azure
+
+# SpecFlow anonymous usage telemetry (per-machine generated id)
+**/SpecFlow/userid
