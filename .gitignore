@@ -371,6 +371,9 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 
+# SpecFlow generated telemetry id
+**/SpecFlow/userid
+
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
@@ -480,6 +483,3 @@ $RECYCLE.BIN/
 # Vim temporary swap files
 *.swp
 .azure
-
-# SpecFlow anonymous usage telemetry (per-machine generated id)
-**/SpecFlow/userid
