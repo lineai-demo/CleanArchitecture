@@ -371,6 +371,9 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 
+# SpecFlow generated telemetry id
+**/SpecFlow/userid
+
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 

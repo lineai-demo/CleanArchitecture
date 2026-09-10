@@ -9,7 +9,8 @@ import { TodoListsClient, TodoItemsClient,
 @Component({
   selector: 'app-todo-component',
   templateUrl: './todo.component.html',
-  styleUrls: ['./todo.component.scss']
+  styleUrls: ['./todo.component.scss'],
+  standalone: false
 })
 export class TodoComponent implements OnInit {
   debug = false;
