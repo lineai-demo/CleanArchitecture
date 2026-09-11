@@ -1,12 +1,12 @@
 ﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using AutoMapper;
+using Microsoft.Extensions.Logging.Abstractions;
 using CleanArchitecture.Application.Common.Interfaces;
 using CleanArchitecture.Application.Common.Models;
 using CleanArchitecture.Application.TodoItems.Queries.GetTodoItemsWithPagination;
 using CleanArchitecture.Application.TodoLists.Queries.GetTodos;
 using CleanArchitecture.Domain.Entities;
-using Microsoft.Extensions.Logging.Abstractions;
 using NUnit.Framework;
 
 namespace CleanArchitecture.Application.UnitTests.Common.Mappings;
