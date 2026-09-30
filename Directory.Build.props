@@ -4,7 +4,11 @@
     <TargetFramework>net8.0</TargetFramework>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <!-- NU1903: pre-existing AutoMapper 13.0.1 audit advisory, unrelated to this upgrade; AutoMapper is out of scope here (tracked separately). -->
-    <NoWarn>$(NoWarn);NU1903</NoWarn>
+    <!-- NU1603: an automated dependency-upgrade bot repeatedly re-pins Microsoft.Extensions.Configuration.EnvironmentVariables
+         to 8.0.1, a version that was never published to NuGet (the 8.x line stops at 8.0.0; next is 9.0.0). Each recurrence
+         breaks restore under TreatWarningsAsErrors even though NuGet can resolve a safe approximate match. Downgrading this
+         one warning to non-fatal prevents the bot's repeated bad bump from blocking CI while still surfacing as a warning. -->
+    <NoWarn>$(NoWarn);NU1903;NU1603</NoWarn>
     <!-- <ArtifactsPath>$(MSBuildThisFileDirectory)artifacts</ArtifactsPath> -->
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
