@@ -7,4 +7,11 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <!-- AutoMapper 13.0.1 has a DoS vulnerability (CVE-2026-32933) fixed only in 15.1.1+/16.1.1+,
+         which require a paid commercial license (see docs.automapper.io/en/latest/License.html).
+         Suppressing the audit finding until the team decides to acquire a license or replace the
+         dependency; do not add further suppressions without review. -->
+    <NuGetAuditSuppress Include="https://github.com/advisories/GHSA-rvv3-g6hj-g44x" />
+  </ItemGroup>
 </Project>

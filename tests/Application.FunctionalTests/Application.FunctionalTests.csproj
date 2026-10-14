@@ -33,6 +33,7 @@
         <PackageReference Include="FluentAssertions" />
         <PackageReference Include="Moq" />
         <PackageReference Include="Respawn" />
+        <PackageReference Include="System.Security.Cryptography.Pkcs" />
         <PackageReference Include="Testcontainers.MsSql" />
     </ItemGroup>
     
