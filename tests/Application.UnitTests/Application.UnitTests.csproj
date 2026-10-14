@@ -19,6 +19,7 @@
         </PackageReference>
         <PackageReference Include="FluentAssertions" />
         <PackageReference Include="Moq" />
+        <PackageReference Include="System.Security.Cryptography.Pkcs" />
     </ItemGroup>
 
     <ItemGroup>
