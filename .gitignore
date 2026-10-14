@@ -481,5 +481,5 @@ $RECYCLE.BIN/
 *.swp
 .azure
 
-# SpecFlow generated telemetry id
-tests/Web.AcceptanceTests/SpecFlow/
+# SpecFlow generated runtime cache
+**/SpecFlow/userid
