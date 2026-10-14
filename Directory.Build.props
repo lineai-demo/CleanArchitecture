@@ -1,7 +1,7 @@
 ﻿<!-- See https://aka.ms/dotnet/msbuild/customize for more details on customizing your build -->
 <Project>
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <!-- NU1903: pre-existing AutoMapper 13.0.1 advisory, unrelated to this upgrade; unblock restore without disabling TreatWarningsAsErrors -->
     <WarningsNotAsErrors>$(WarningsNotAsErrors);NU1903</WarningsNotAsErrors>
